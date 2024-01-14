@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.not-found-card {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-not-found-text {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .not-found-card {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page-not-found-text {
+    color: #ffffff;
+    font-size: 30px;
+  }
+}

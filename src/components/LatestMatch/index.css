@@ -1,0 +1,152 @@
+/* Write your CSS here */
+
+.latest-match-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.latest-match-card-1 {
+  text-align: start;
+  display: flex;
+}
+.latest-match-card-1-heading {
+  font-size: 30px;
+}
+.latest-match-card-1-date {
+  font-size: 20px;
+}
+.latest-match-card-1-venue {
+  font-size: 17px;
+}
+.latest-match-card-1-result {
+  font-size: 17px;
+}
+
+.latest-match-card-2-sm {
+  display: none;
+}
+.latest-match-card-2-img-sm {
+}
+
+.latest-match-card-2 {
+  margin-left: 60px;
+}
+.latest-match-card-2-img {
+  width: 60%;
+  height: 60%;
+}
+
+.latest-match-card-3 {
+  text-align: end;
+}
+.latest-match-card-3-first-innings-heading {
+  font-size: 20px;
+}
+
+.latest-match-card-3-first-innings-text {
+  font-size: 15px;
+}
+
+.latest-match-card-3-second-innings-heading {
+  font-size: 20px;
+}
+.latest-match-card-3-second-innings-text {
+  font-size: 15px;
+}
+.latest-match-card-3-man-of-the-match-heading {
+  font-size: 20px;
+}
+.latest-match-card-3-man-of-the-match-text {
+  font-size: 15px;
+}
+.latest-match-card-3-umpires-heading {
+  font-size: 20px;
+}
+.latest-match-card-3-umpires-text {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .latest-match-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #0f172a;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .latest-match-card-1 {
+    text-align: start;
+    border-bottom: 2px solid #475569;
+  }
+  .latest-match-card-1-heading {
+    font-size: 20px;
+  }
+  .latest-match-card-1-date {
+    font-size: 17px;
+  }
+  .latest-match-card-1-venue {
+    font-size: 14px;
+  }
+  .latest-match-card-1-result {
+    font-size: 14px;
+  }
+  .latest-match-card-2-sm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .latest-match-card-2-img-sm {
+    width: 30%;
+    height: 30%;
+  }
+
+  .latest-match-card-2 {
+    display: none;
+    margin-left:;
+  }
+  .latest-match-card-2-img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .latest-match-card-3 {
+    text-align: start;
+  }
+  .latest-match-card-3-first-innings-heading {
+    font-size: 17px;
+  }
+
+  .latest-match-card-3-first-innings-text {
+    font-size: 13px;
+  }
+
+  .latest-match-card-3-second-innings-heading {
+    font-size: 17px;
+  }
+  .latest-match-card-3-second-innings-text {
+    font-size: 13px;
+  }
+  .latest-match-card-3-man-of-the-match-heading {
+    font-size: 17px;
+  }
+  .latest-match-card-3-man-of-the-match-text {
+    font-size: 13px;
+  }
+  .latest-match-card-3-umpires-heading {
+    font-size: 17px;
+  }
+  .latest-match-card-3-umpires-text {
+    font-size: 13px;
+  }
+}
